@@ -1,0 +1,161 @@
+.search-results {
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.filter-sidebar {
+  width: 240px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.filter-title {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.airline-filter,
+.price-range,
+.connecting-flights {
+  margin-bottom: 1.5rem;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.search-results-content {
+  flex: 1;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.search-input {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--border-color);
+  border-radius: 9999px;
+  padding: 0.5rem 1rem;
+}
+.search-input input {
+  width: 100%;
+  font-size: 1.5em;
+  border: 0;
+}
+
+.search-icon {
+  width: 16px;
+  height: 16px;
+  margin-left: 0.5rem;
+}
+
+.date-range {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.date-picker {
+  background-color: rgba(120, 120, 128, 0.12);
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+
+.flight-results {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.flight-card {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  width: 95%;
+  /* max-width: 1200px; */
+  height: 230px;
+}
+
+.flight-details {
+  flex: 1;
+}
+
+.flight-route {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.flight-info {
+  margin-bottom: 0.5rem;
+}
+
+.airline-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.airline-logo {
+  /* width: 26px; */
+  height: 1.5em;
+}
+
+.flight-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.flight-image {
+  width: 50%;
+  height: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 1rem;
+  object-fit: cover;
+}
+
+.book-button {
+  /* width: 140px; */
+  width: 10%;
+  min-width: 100px;
+  height: 100%;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.book-icon {
+  width: 28px;
+  height: 28px;
+}
+
+@media (max-width: 768px) {
+  .search-results {
+    flex-direction: column;
+  }
+
+  .filter-sidebar {
+    width: 100%;
+  }
+
+  .flight-card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,63 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.flight-image {
+  width: calc(100px + 60vw);
+  max-width: 100%;
+}
+
+.price-wrapper {
+  position: relative;
+  height: 5em;
+}
+
+.price-amount {
+  font-size: 3em;
+  font-weight: bold;
+  position: absolute;
+  left: 20px;
+}
+
+.price-currency {
+  font-size: 2em;
+  font-weight: bold;
+  top: 0;
+  position: absolute;
+}
+
+.flight-detail {
+  font-size: 1.2em;
+  line-height: 1.7em;
+}
+
+.detail-label {
+  font-size: 1.2em;
+}
+
+.detail-value {
+  padding-left: 0.3em;
+  color: rgb(34, 34, 34);
+}
+
+.airline-box {
+  height: 20em;
+}
+.airline-logo {
+  height: 20px;
+}
+
+.book-now-btn {
+  width: 100%;
+  font-size: 1.3rem;
+  background-color: var(--primary-color);
+  border: 0;
+  color: white;
+  height: 45px;
+  border-radius: 7px;
+  margin-top: 30px;
+  cursor: pointer;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SponyFly</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon-32x32.png" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/breadcrumbs.css" />
+    <link rel="stylesheet" href="./styles/flight-details.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="./index.html" class="logo-container-wrapper-link">
+        <div class="logo-container">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/557708213e16d22ecc34a7233059db5e52b177b5802c3147ee7027764a20aad9?placeholderIfAbsent=true&apiKey=0ee8a97a29544de7a3bd04cbc1242992"
+            alt="SponyFly logo"
+            class="logo-image"
+          />
+          <span class="company-name">SponyFly</span>
+        </div>
+      </a>
+
+      <nav class="nav-list">
+        <a href="#" class="nav-item">About</a>
+        <a href="#" class="nav-item">Contacts</a>
+        <div class="auth-buttons">
+          <button
+            onclick="window.location.href = './login.html'"
+            class="signin-btn"
+          >
+            Sign in
+          </button>
+          <button
+            onclick="window.location.href = './register.html'"
+            class="register-btn"
+          >
+            Register
+          </button>
+        </div>
+      </nav>
+    </header>
+    <section class="breadcrumbs">
+      <a href="./index.html">SponyFly</a> &gt;
+      <a href="./search_result.html">Search Flights</a> &gt Flight Details
+    </section>
+
+    <main class="main-content">
+      <div class="content-felx-wrap">
+        <img
+          src="./img/Skyline_Frankfurt_am_Main_2015.jpg"
+          alt="Flight route illustration"
+          class="flight-image"
+        />
+        <div class="flight-info">
+          <div class="flight-title">
+            <h1 class="flight-route">Calgary YYC - Frankfurt FRA</h1>
+            <div class="price-container">
+              <div class="price-wrapper">
+                <sup class="price-currency">$</sup>
+                <span class="price-amount">662</span>
+              </div>
+            </div>
+          </div>
+          <div class="flight-detail">
+            <span class="detail-label">Time:</span>
+            <span class="detail-value">11.06.25 5pm - 13.06.265 3pm</span>
+          </div>
+          <div class="flight-detail">
+            <span class="detail-label">Baggage:</span>
+            <span class="detail-value">Not included</span>
+          </div>
+          <div class="flight-detail">
+            <span class="detail-label">Airline:</span>
+            <span class="airline-box">
+              <span class="detail-value">Imagin' Airlines</span>
+              <img
+                src="./img/Screenshot_4.png"
+                alt="Imagin' Airlines logo"
+                class="airline-logo"
+              />
+            </span>
+          </div>
+          <button class="book-now-btn">Book Now</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">2025 SponyFly | All rights reserved</footer>
+  </body>
+</html>

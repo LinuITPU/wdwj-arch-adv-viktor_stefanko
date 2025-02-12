@@ -1,0 +1,64 @@
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid var(--border-color);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container-wrapper-link {
+  color: inherit;
+  text-decoration: none;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 61px;
+  height: 40px;
+  margin-right: 1rem;
+}
+
+.company-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: var(--secondary-color);
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.signin-btn,
+.register-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.signin-btn {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.register-btn {
+  background-color: var(--primary-color);
+  color: #fff;
+}
